@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AluraFlix - Imersão Dev</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <h1>AluraFlix</h1>
+    <input type="text" id="search" placeholder="Pesquisar vídeo..." />
+  </header>
+
+  <!-- Área de vídeos -->
+  <main>
+    <section id="video-list">
+      <!-- Lista de vídeos será injetada aqui via JavaScript -->
+    </section>
+  </main>
+
+  <!-- Formulário para adicionar vídeos -->
+  <footer>
+    <h2>Adicionar Novo Vídeo</h2>
+    <form id="add-video-form">
+      <label for="video-title">Título:</label>
+      <input type="text" id="video-title" required />
+      
+      <label for="video-url">URL do Vídeo:</label>
+      <input type="text" id="video-url" required />
+      
+      <button type="submit">Adicionar Vídeo</button>
+    </form>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
